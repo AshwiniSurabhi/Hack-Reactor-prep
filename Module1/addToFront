@@ -1,0 +1,15 @@
+function addToFront(arr, element) {
+  // your code here
+  /*for(var x=arr.length;x>0;x--){
+    arr[x]=arr[x-1];
+    
+  }
+  arr[0]= element;
+  return arr*/
+  arr.unshift(element);
+  return arr;
+  
+  
+}
+
+console.log(addToFront([1,2],3));
